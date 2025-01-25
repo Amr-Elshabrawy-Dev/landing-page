@@ -1,0 +1,56 @@
+.cardProducts__overlay {
+  background-image: url("/images/cardProducts-shape.svg");
+  background-position: 15rem -5rem;
+}
+
+.cardProducts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4rem 4rem 14rem;
+  gap: 2rem;
+}
+
+.cardProducts .cardProduct {
+  flex: 1 0 250px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(var(--color-white));
+  box-shadow: 0 10px 10px 3px rgb(var(--color-text), 0.1);
+}
+
+.cardProduct .cardProduct__img {
+  width: 100%;
+}
+
+.cardProduct .cardProduct__img img {
+  width: 100%;
+  aspect-ratio: 16/12;
+  object-fit: fill;
+  border-radius: 0.5rem;
+}
+
+.cardProduct .cardProduct__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.2rem;
+}
+
+.cardProduct .cardProduct__text h3 {
+  font-weight: 700;
+  color: rgb(var(--color-text));
+  text-transform: uppercase;
+}
+
+.cardProduct .cardProduct__text p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: rgb(var(--color-text), 0.3);
+}
