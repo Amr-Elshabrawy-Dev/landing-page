@@ -1,0 +1,58 @@
+.companies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0.5rem 4rem 4rem;
+}
+
+.companies .companies__text {
+  color: rgba(52, 61, 81,0.7);
+}
+
+.companies .companies__img {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.companies .companies__img img {
+  width: 100%;
+  max-width: 80px;
+}
+
+/* ============================================ */
+/*               RESPONSIVE STYLES              */
+/* ============================================ */
+
+@media (max-width: 768px) {
+  .companies {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.5rem 3rem 3rem;
+  }
+
+  .companies .companies__img {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .companies {
+    padding: 0.5rem 2rem 2rem;
+  }
+  
+  .companies .companies__img {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .companies {
+    padding: 1rem;
+  }
+  
+  .companies .companies__img {
+    gap: 1rem;
+  }
+  
+}
