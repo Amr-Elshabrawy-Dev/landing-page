@@ -1,0 +1,227 @@
+.sellStunning {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  padding: 4rem;
+}
+
+.sellStunning .sectionContent.appear-right {
+  transform: scale(0.5) translateX(-100%);
+}
+.sellStunning .sellStunning__content {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sellStunning .sellStunning__img {
+  grid-column: 2 / -1;
+  width: 100%;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sellStunning__img .product-chair {
+  background-color: rgb(var(--color-primary), 0.819);
+  border-radius: 50%;
+  position: relative;
+  align-self: start;
+  width: 300px;
+  height: 300px;
+}
+
+.sellStunning__img .product-headphone {
+  background-color: rgb(var(--color-secondary), 0.6);
+  border-radius: 50%;
+  position: relative;
+  align-self: end;
+  width: 250px;
+  height: 250px;
+  margin-top: -6rem;
+}
+
+.product-chair .product__card {
+  right: 5%;
+}
+
+.product-headphone .product__card {
+  left: -5%;
+}
+
+.product__card {
+  position: absolute;
+  top: 50%;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem 0.7rem;
+  border-radius: 0.5rem;
+  background-color: rgb(var(--color-white));
+  box-shadow: rgba(var(--color-text), 0.1) 0px 0px 5px 2px,
+    rgba(var(--color-text), 0.1) 0px 4px 11px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-chair .product__card:hover {
+  box-shadow: rgba(var(--color-primary), 0.819) 0px 0px 0px 3px,
+    rgba(var(--color-text), 0.1) 0px 4px 11px;
+}
+
+.product-headphone .product__card:hover {
+  box-shadow: rgba(var(--color-secondary), 0.6) 0px 0px 0px 3px,
+    rgba(var(--color-text), 0.1) 0px 4px 11px;
+}
+
+.product__card img {
+  height: auto;
+  margin-top: -5.5rem;
+  object-fit: contain;
+}
+
+.card__title {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.card__title h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  white-space: nowrap;
+  color: rgb(var(--color-text));
+}
+
+.card__footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 0.5rem 0;
+  border-top: 1px solid rgba(var(--color-text), 0.1);
+}
+
+.card__price {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(var(--color-primary));
+}
+
+.card__price span {
+  font-weight: 400;
+}
+
+.card__btn {
+  background-color: transparent;
+  color: rgb(var(--color-text));
+  border: none;
+  cursor: pointer;
+}
+
+/* ============================================ */
+/*               RESPONSIVE STYLES              */
+/* ============================================ */
+
+@media (max-width: 1024px) {
+  .sellStunning .sellStunning__content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sellStunning .sellStunning__img {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .sellStunning__img .product-chair {
+    width: 250px;
+    height: 250px;
+  }
+
+  .sellStunning__img .product-headphone {
+    width: 200px;
+    height: 200px;
+  }
+
+  .product__card {
+    width: 200px;
+  }
+
+  .card__title h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .sellStunning {
+    padding: 4rem 2rem;
+  }
+
+  .sellStunning__img .product-chair {
+    width: 200px;
+    height: 200px;
+  }
+
+  .sellStunning__img .product-headphone {
+    width: 160px;
+    height: 160px;
+  }
+
+  .product__card {
+    width: 155px;
+  }
+
+  .card__title h4 {
+    font-size: 0.9rem;
+  }
+
+  .card__footer {
+    padding: 0.8rem 0.5rem 0;
+  }
+
+  .card__price {
+    font-size: 0.8rem;
+  }
+  
+  .sellStunning .btnContainer {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .sellStunning {
+    padding: 4rem 1rem;
+  }
+
+  .sellStunning .sellStunning__content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sellStunning .sellStunning__img {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .card__title h4 {
+    font-size: 0.8rem;
+  }
+
+  .card__footer {
+    padding: 0.6rem 0.5rem 0;
+  }
+
+  .card__price {
+    font-size: 0.7rem;
+  }
+}
