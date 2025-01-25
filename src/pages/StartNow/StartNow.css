@@ -1,0 +1,94 @@
+.overlay.StartNow__overlay {
+  background-image: url("/images/hero-shape.svg");
+  background-position: 40rem -15rem;
+  background-size: 40rem ;
+}
+
+.StartNow {
+  width: 100%;
+  min-height: calc(100dvh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem clamp(1rem, calc(0rem + 2.667vw), 2rem);
+}
+
+.StartNow .StartNow__title {
+  font-size: clamp(1.5rem, calc(0.5rem + 3.333vw), 2.5rem);
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+
+.StartNow__cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.StartNow__cards .card {
+  flex: 1 1 270px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: rgb(var(--color-white));
+  box-shadow: 0 5px 8px 3px rgb(var(--color-text), 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.StartNow__cards .card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 4px 3px rgb(var(--color-secondary));
+}
+
+.StartNow__cards .card h2 {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.StartNow__cards .card .price {
+  color: rgb(var(--color-primary));
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.StartNow__cards .card .features {
+  flex: 1;
+  padding-left: 1rem;
+}
+
+.StartNow__cards .card .features li {
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  list-style-type: square;
+}
+
+.StartNow__cards .card .features li::marker {
+  color: rgb(var(--color-primary));
+}
+
+.StartNow__cards .card button {
+  width: 100%;
+  padding: 0.75rem;
+  border: 0;
+  border-radius: 5rem;
+  background: var(--color-button);
+  color: rgb(var(--color-white));
+  font-weight: 600;
+  box-shadow: 5px 5px 5px rgba(var(--color-text), 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.StartNow__cards .card button:hover {
+  box-shadow: 0 0 5px rgba(var(--color-text), 0.5);
+}

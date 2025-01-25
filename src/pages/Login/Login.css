@@ -1,0 +1,91 @@
+.overlay.login__overlay {
+  background-image: url("/images/hero-shape.svg");
+  background-position: 40rem -15rem;
+  background-size: 45rem;
+}
+
+.login {
+  width: 100%;
+  min-height: calc(100dvh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: clamp(0.625rem, calc(-0.75rem + 3.667vw), 2rem);
+}
+
+.login__form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: clamp(1rem, calc(-2rem + 8vw), 4rem);
+  border-radius: 1rem;
+  background-color: rgb(var(--color-white));
+  box-shadow: 0 5px 8px 2px rgba(var(--color-text), 0.1) ;
+}
+
+.login__form h3 {
+  font-size: 2rem;
+}
+
+.login__form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.login__form form .input__group {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  background-color: #f6f6f6;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.login__form form .input__group input {
+  border: none;
+  background: none;
+  width: 100%;
+  font-size: clamp(0.625rem, calc(0.25rem + 1vw), 1rem);
+}
+
+.login__form form input:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.login__form form .input__group .icon {
+  color: #ababab;
+  width: clamp(1.25rem, calc(0.625rem + 1.667vw), 1.875rem);
+  height: clamp(1.25rem, calc(0.625rem + 1.667vw), 1.875rem);
+}
+
+.login__form form button {
+  width: 50%;
+  padding: 1rem;
+  border: 0;
+  border-radius: 5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  background: var(--color-button);
+  color: rgb(var(--color-white));
+  text-transform: uppercase;
+  box-shadow: 5px 5px 5px rgba(var(--color-text), 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.login__form form button:hover {
+  box-shadow: 0 0 5px rgba(var(--color-text), 0.5);
+}

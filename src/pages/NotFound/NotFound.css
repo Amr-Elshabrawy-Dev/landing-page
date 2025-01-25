@@ -1,0 +1,42 @@
+.notFound__overlay {
+  background-image: url("/images/hero-shape.svg");
+  background-position: 40rem -15rem;
+  background-size: 40rem;
+}
+
+.notFound {
+  min-height: calc(100dvh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.notFound__svg svg {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.notFound__error {
+  text-align: center;
+}
+
+.notFound__error p {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: 2rem 0;
+}
+
+.notFound__error button {
+  padding: 0.5rem 2rem;
+  border: none;
+  background: rgb(var(--color-primary));
+  color: rgb(var(--color-white));
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 3rem;
+  cursor: pointer;
+}
