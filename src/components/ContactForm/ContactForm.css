@@ -1,0 +1,188 @@
+.overlay.contact__overlay {
+  background-image: url("/images/ContactForm-shape.svg");
+  background-position: 40rem -11rem;
+  left: 0;
+  right: -60rem;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+
+.contact .contact__img {
+  flex: 1 1 50%;
+  padding-left: 4rem;
+}
+
+.contact .contact__img img {
+  aspect-ratio: 6/11;
+  object-fit: cover;
+  width: 100%;
+}
+
+.contact .contact__form {
+  flex: 1 1 50%;
+  width: 100%;
+  padding: 3rem 4rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  background-color: rgb(var(--color-white),0.5);
+  box-shadow: 0 10px 10px 3px rgb(var(--color-text), 0.1);
+}
+
+.contact .contact__form h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(var(--color-text));
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.contact .contact__form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.contact .contact__form form .input__group {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: #f6f6f6;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.contact .contact__form form .input__group input,
+.contact .contact__form form .input__group textarea {
+  border: none;
+  background: none;
+  width: 100%;
+  font-size: clamp(0.625rem, calc(0.25rem + 1vw), 1rem);
+}
+
+.contact .contact__form form .input__group .icon {
+  color: #ababab;
+  width: clamp(1.25rem, calc(0.625rem + 1.667vw), 1.875rem);
+  height: clamp(1.25rem, calc(0.625rem + 1.667vw), 1.875rem);
+}
+
+.contact .contact__form form textarea {
+  resize: none;
+  height: 8rem;
+  padding-top: 0.3rem;
+}
+
+.contact .contact__form form button {
+  padding: 1rem 2.5rem;
+  margin: 2.5rem auto 0;
+  border: none;
+  border-radius: 3rem;
+  background: var(--color-button);
+  color: rgb(var(--color-white));
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* ============================================ */
+/*               RESPONSIVE STYLES              */
+/* ============================================ */
+
+@media (max-width: 1024px) {
+  .overlay.contact__overlay {
+    background-position: 33rem -11rem;
+  }
+
+  .contact .contact__img {
+    position: relative;
+    left: 0;
+  }
+
+  .contact .contact__form {
+    padding: 3rem;
+  }
+
+  .contact .contact__form h3 {
+    font-size: 1.8rem;
+  }
+
+  .contact .contact__form form {
+    gap: 1rem;
+  }
+
+  .contact .contact__form form .input__group {
+    padding: 0.8rem 2rem;
+  }
+
+  .contact .contact__form form textarea {
+    height: 6rem;
+  }
+
+  .contact .contact__form form button {
+    padding: 1rem 2rem;
+    margin: 2rem auto 0;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .overlay.contact__overlay {
+    background-position: 23rem -15rem;
+  }
+
+  .contact {
+    padding: 1.5rem;
+  }
+
+  .contact .contact__img {
+    display: none;
+  }
+
+  .contact .contact__form {
+    padding: 1.5rem;
+  }
+
+  .contact .contact__form h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact .contact__form form button {
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .overlay.contact__overlay {
+    background-position: 15rem -15rem;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact .contact__form {
+    padding: 1rem;
+  }
+
+  .contact .contact__form h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact .contact__form form button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  .contact .contact__form form textarea {
+    height: 6rem;
+  }
+}
