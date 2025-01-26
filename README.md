@@ -1,4 +1,4 @@
-# 🏝️ 📃 Landing Page
+<h1 align="center">🏝️ 📃 Landing Page</h1>
 
   Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully responsive and visually appealing landing page designed to showcase a modern and interactive user experience. Built using **React** with **Vite** as the build tool, this project utilizes best practices in front-end development to deliver high performance and maintainable code.
 
