@@ -17,10 +17,8 @@ export default defineConfig({
     svgr(),
     ViteImageOptimizer({
       webp: {
-        quality: 70,
+        quality: 100,
       },
-      cache: true,
-      cacheLocation: 'node_modules/.cache/vite-plugin-image-optimizer',
     }),
   ],
 });

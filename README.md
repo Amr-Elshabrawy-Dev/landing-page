@@ -2,11 +2,13 @@
 
 <div align="center">
   
-<div style="font-weight:bold; margin: 1rem 0;">
-  <a href="https://amr-elshabrawy-dev.github.io/landing-page/" target="_blank">🌐 View Live Demo</a>
-  |
-  <a href="https://github.com/Amr-Elshabrawy-Dev/landing-page" target="_blank">📦 GitHub Repo</a>
-</div>
+<p>
+  <strong>
+    <a href="https://amr-elshabrawy-dev.github.io/landing-page/" target="_blank">🌐 View Live Demo</a>
+    |
+    <a href="https://github.com/Amr-Elshabrawy-Dev/landing-page" target="_blank">📦 GitHub Repo</a>
+  </strong>
+</p>
 
 ![GitHub stars](https://img.shields.io/github/stars/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub forks](https://img.shields.io/github/forks/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Amr-Elshabrawy-Dev/landing-page?style=social)
 
