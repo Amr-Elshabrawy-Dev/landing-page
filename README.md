@@ -1,16 +1,10 @@
 <h1 align="center">🏝️ 📃 Landing Page</h1>
 
 <div align="center">
-  
-<p>
-  <strong>
-    <a href="https://amr-elshabrawy-dev.github.io/landing-page/" target="_blank">🌐 View Live Demo</a>
-    |
-    <a href="https://github.com/Amr-Elshabrawy-Dev/landing-page" target="_blank">📦 GitHub Repo</a>
-  </strong>
-</p>
 
-![GitHub stars](https://img.shields.io/github/stars/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub forks](https://img.shields.io/github/forks/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Amr-Elshabrawy-Dev/landing-page?style=social)
+[**🌐 View Live Demo**](https://amr-elshabrawy-dev.github.io/landing-page/) | [**📦 GitHub Repo**](https://github.com/Amr-Elshabrawy-Dev/landing-page)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Amr-Elshabrawy-Dev/landing-page?style=social&logo=github) ![GitHub stars](https://img.shields.io/github/stars/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub forks](https://img.shields.io/github/forks/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Amr-Elshabrawy-Dev/landing-page?style=social)
 
 <hr style="height: 0.3rem; background: linear-gradient(to right, #2ea44f, #f4d058); border: none; border-radius: 1rem; margin: 2rem auto; width: 50%;">
 
