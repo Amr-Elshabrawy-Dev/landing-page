@@ -20,5 +20,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/landing-page',
+  base: '/landing-page/',
 });
