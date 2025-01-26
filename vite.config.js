@@ -18,6 +18,8 @@ export default defineConfig({
       webp: {
         quality: 100,
       },
+      cache: true,
+      cashLocation: 'public',
     }),
   ],
   base: '/landing-page/',
