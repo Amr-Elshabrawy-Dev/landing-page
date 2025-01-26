@@ -1,6 +1,14 @@
 <h1 align="center">🏝️ 📃 Landing Page</h1>
 
-  Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully responsive and visually appealing landing page designed to showcase a modern and interactive user experience. Built using **React** with **Vite** as the build tool, this project utilizes best practices in front-end development to deliver high performance and maintainable code.
+<div align="center">
+  
+  [**🌐 View Live Demo**](https://amr-elshabrawy-dev.github.io/landing-page/) | [**📦 GitHub Repo**](https://github.com/Amr-Elshabrawy-Dev/landing-page)
+
+![GitHub stars](https://img.shields.io/github/stars/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub forks](https://img.shields.io/github/forks/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Amr-Elshabrawy-Dev/landing-page?style=social)
+  > [!tip]
+  > Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully responsive and visually appealing landing page designed to showcase a modern and interactive user experience. Built using **🚀React** with **⚡Vite** as the build tool, this project utilizes best practices in front-end development to deliver high performance and maintainable code.
+
+</div>
 
 ## ✨ Features
 
@@ -87,33 +95,33 @@
 
 1. 📥 Clone the repository:
 
-    ```bash
-    git clone https://github.com/your-username/landing-page.git
-    ```
+   ```bash
+   git clone https://github.com/your-username/landing-page.git
+   ```
 
 1. 📂 Navigate to the project directory:
 
-    ```bash
-    cd landing-page
-    ```
+   ```bash
+   cd landing-page
+   ```
 
 1. ⚙️ Install dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 1. 🚀 Run the development server:
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
 1. 🏗️ Build the project for production
 
-    ```bash
-    npm run build
-    ```
+   ```bash
+   npm run build
+   ```
 
 ## 🔮 Future Improvements
 
