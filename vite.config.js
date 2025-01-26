@@ -18,8 +18,6 @@ export default defineConfig({
       webp: {
         quality: 100,
       },
-      cache: true,
-      cashLocation: "/node_modules/.cache/vite-plugin-image-optimizer",
     }),
   ],
   base: '/landing-page/',
