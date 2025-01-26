@@ -5,10 +5,16 @@
   [**🌐 View Live Demo**](https://amr-elshabrawy-dev.github.io/landing-page/) | [**📦 GitHub Repo**](https://github.com/Amr-Elshabrawy-Dev/landing-page)
 
 ![GitHub stars](https://img.shields.io/github/stars/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub forks](https://img.shields.io/github/forks/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Amr-Elshabrawy-Dev/landing-page?style=social)
-  > [!NOTE]
-  > Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully responsive and visually appealing landing page designed to showcase a modern and interactive user experience. Built using **🚀React** with **⚡Vite** as the build tool, this project utilizes best practices in front-end development to deliver high performance and maintainable code.
 
+Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully responsive and visually appealing landing page designed to showcase a modern and interactive user experience. Built using **🚀React** with **⚡Vite** as the build tool, this project utilizes best practices in front-end development to deliver high performance and maintainable code.
+  
 </div>
+
+> [!NOTE]
+> This is a note
+
+> [!WARNING]
+> This is a warning
 
 ## ✨ Features
 
