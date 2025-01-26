@@ -6,7 +6,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Amr-Elshabrawy-Dev/landing-page?style=social&logo=github) ![GitHub stars](https://img.shields.io/github/stars/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub forks](https://img.shields.io/github/forks/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Amr-Elshabrawy-Dev/landing-page?style=social)
 
-<hr style="height: 0.3rem; background: linear-gradient(to right, #2ea44f, #f4d058); border: none; border-radius: 1rem; margin: 2rem auto; width: 50%;">
+---
 
 Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully responsive and visually appealing landing page designed to showcase a modern and interactive user experience. Built using **🚀React** with **⚡Vite** as the build tool, this project utilizes best practices in front-end development to deliver high performance and maintainable code.
 
@@ -135,7 +135,7 @@ Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully re
 - 📊 Integrate analytics to track user engagement and behavior.
 - 📱 Implement progressive web app (PWA) features for offline access.
 
-<hr style="height: 0.3rem; background: linear-gradient(to right, #2ea44f, #f4d058); border: none; border-radius: 1rem; margin: 2rem auto; width: 100%;">
+---
 
 ## 📚 Acquired Knowledge
 
@@ -148,7 +148,7 @@ Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully re
 - 🎭 **Animation Implementation**: Improved understanding of performant CSS animations
 - ♿ **Accessibility Standards**: Learned WCAG guidelines and implementation
 
-<hr style="height: 0.3rem; background: linear-gradient(to right, #2ea44f, #f4d058); border: none; border-radius: 1rem; margin: 2rem auto; width: 100%;">
+---
 
 ## 🌐 Let's Connect
 
@@ -158,13 +158,14 @@ Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully re
 
 </div>
 
-<hr style="height: 0.3rem; background: linear-gradient(to right, #2ea44f, #f4d058); border: none; border-radius: 1rem; margin: 2rem auto; width: 100%;">
+---
 
   <div align="center">
-    <h1 style="font-size: 2.5rem;">👨‍💻 <span style="background: linear-gradient(to right, #2ea44f, #f4d058); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">AMR ELSHABRAWY</span></h1>
+    <h1 style="color: #2ea44f;">👨‍💻 AMR ELSHABRAWY</h1>
       <img src="./src/assets/amr.svg" alt="Amr Elshabrawy Logo" width="100px" style="margin: 1rem 0;">
       <p style="color: #586069; font-size: 1.1rem; margin-top: 1rem;">
         Created with 💚 by <strong><a href="https://github.com/Amr-Elshabrawy-Dev">AMR ELSHABRAWY</a></strong> 🌟 &copy; 2025
       </p>
-      <hr style="height: 0.3rem; background: linear-gradient(to right, #2ea44f, #f4d058); border: none; border-radius: 1rem; margin: 2rem auto; width: 100%;">
   </div>
+
+---
