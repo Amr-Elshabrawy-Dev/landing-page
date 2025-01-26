@@ -1,6 +1,6 @@
 import { useVisibility } from "../../hooks/useVisibility";
 import { RiSearchLine } from "react-icons/ri";
-import "./hero.css";
+import "./Hero.css";
 const Hero = () => {
   const [elementRef, isVisible] = useVisibility();
   const [elementRef2, isVisible2] = useVisibility();
