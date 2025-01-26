@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  [**🌐 View Live Demo**](https://amr-elshabrawy-dev.github.io/landing-page/) | [**📦 GitHub Repo**](https://github.com/Amr-Elshabrawy-Dev/landing-page)
+  [**🌐 View Live Demo**](https://amr-elshabrawy-dev.github.io/landing-page/){:target="_blank"} | [**📦 GitHub Repo**](https://github.com/Amr-Elshabrawy-Dev/landing-page){:target="_blank"}
 
 ![GitHub stars](https://img.shields.io/github/stars/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub forks](https://img.shields.io/github/forks/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Amr-Elshabrawy-Dev/landing-page?style=social)
 
@@ -25,13 +25,13 @@ Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully re
 
 ## 🛠️ Core Technologies
 
-- 🚀 **[React](https://reactjs.org/)**: Modern front-end framework for building user interfaces
-- ⚡ **[Vite](https://vitejs.dev/)**: Lightning-fast build tool and development server
-- 🔀 **[React Router](https://reactrouter.com/)**: Dynamic routing management
-- 💎 **[React Icons](https://react-icons.github.io/react-icons/)**: Rich icon library integration
-- 🖼️ **[vite-plugin-image-optimizer](https://github.com/FatehAK/vite-plugin-image-optimizer)**: Automatic image optimization
-- 📊 **[vite-plugin-svgr](https://github.com/pd4d10/vite-plugin-svgr)**: SVG handling and optimization
-- 🔍 **[ESLint](https://eslint.org/)**: Code quality and style enforcement
+- 🚀 [**React**](https://reactjs.org/){:target="_blank"}: Modern front-end framework for building user interfaces
+- ⚡ [**Vite**](https://vitejs.dev/){:target="_blank"}: Lightning-fast build tool and development server
+- 🔀 [**React Router**](https://reactrouter.com/){:target="_blank"}: Dynamic routing management
+- 💎 [**React Icons**](https://react-icons.github.io/react-icons/){:target="_blank"}: Rich icon library integration
+- 🖼️ [**vite-plugin-image-optimizer**](https://github.com/FatehAK/vite-plugin-image-optimizer){:target="_blank"}: Automatic image optimization
+- 📊 [**vite-plugin-svgr**](https://github.com/pd4d10/vite-plugin-svgr){:target="_blank"}: SVG handling and optimization
+- 🔍 [**ESLint**](https://eslint.org/){:target="_blank"}: Code quality and style enforcement
 - 🎯 **Lighthouse**: Performance and SEO analysis tool
 
 ### 🛠️ Development Stack
@@ -152,7 +152,7 @@ Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully re
 
 <div align="center">
   
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/Amr-Elshabrawy-Dev) [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201202546653?text=Hi%20Amr!%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20potential%20collaboration) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Amr-Elshabrawy-Dev) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=logmein&logoColor=white)](https://www.linkedin.com/in/amr-elshabrawy-dev) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amrelshabrawy.dev@gmail.com) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://www.x.com/@AmrElshabr43803)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/Amr-Elshabrawy-Dev){:target="_blank"} [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201202546653?text=Hi%20Amr!%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20potential%20collaboration){:target="_blank"} [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Amr-Elshabrawy-Dev){:target="_blank"} [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=logmein&logoColor=white)](https://www.linkedin.com/in/amr-elshabrawy-dev){:target="_blank"} [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amrelshabrawy.dev@gmail.com){:target="_blank"} [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://www.x.com/@AmrElshabr43803){:target="_blank"}
 
 </div>
 

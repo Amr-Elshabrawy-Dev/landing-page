@@ -158,6 +158,9 @@
   .card__title h4 {
     font-size: 1rem;
   }
+  .sellStunning .btnContainer {
+    margin-top: 10rem;
+  }
 }
 
 @media (max-width: 768px) {
