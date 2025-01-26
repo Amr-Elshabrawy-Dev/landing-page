@@ -16,7 +16,7 @@ export default defineConfig({
     svgr(),
     ViteImageOptimizer({
       webp: {
-        quality: 100,
+        quality: 60,
       },
     }),
   ],
