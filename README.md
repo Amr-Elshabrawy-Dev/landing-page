@@ -1,10 +1,6 @@
 # 🏝️ 📃 Landing Page
 
-    Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully
-    responsive and visually appealing landing page designed to showcase a
-    modern and interactive user experience. Built using **React** with **Vite**
-    as the build tool, this project utilizes best practices in front-end
-    development to deliver high performance and maintainable code.
+  Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully responsive and visually appealing landing page designed to showcase a modern and interactive user experience. Built using **React** with **Vite** as the build tool, this project utilizes best practices in front-end development to deliver high performance and maintainable code.
 
 ## ✨ Features
 
@@ -91,33 +87,33 @@
 
 1. 📥 Clone the repository:
 
-   ```bash
-     git clone https://github.com/your-username/landing-page.git
-   ```
+    ```bash
+    git clone https://github.com/your-username/landing-page.git
+    ```
 
 1. 📂 Navigate to the project directory:
 
-   ```bash
-     cd landing-page
-   ```
+    ```bash
+    cd landing-page
+    ```
 
 1. ⚙️ Install dependencies:
 
-   ```bash
-     npm install
-   ```
+    ```bash
+    npm install
+    ```
 
 1. 🚀 Run the development server:
 
-   ```bash
-     npm run dev
-   ```
+    ```bash
+    npm run dev
+    ```
 
 1. 🏗️ Build the project for production
 
-   ```bash
-     npm run build
-   ```
+    ```bash
+    npm run build
+    ```
 
 ## 🔮 Future Improvements
 
@@ -148,7 +144,7 @@
 
 <div align="center">
   
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/Amr-Elshabrawy-Dev) [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201202546653?text=Hi%20Amr!%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20potential%20collaboration) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Amr-Elshabrawy-Dev) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amr-elshabrawy-dev) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amrelshabrawy.dev@gmail.com) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://www.x.com/@AmrElshabr43803)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/Amr-Elshabrawy-Dev) [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201202546653?text=Hi%20Amr!%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20potential%20collaboration) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Amr-Elshabrawy-Dev) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=logmein&logoColor=white)](https://www.linkedin.com/in/amr-elshabrawy-dev) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amrelshabrawy.dev@gmail.com) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://www.x.com/@AmrElshabr43803)
 
 </div>
 
