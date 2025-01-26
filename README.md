@@ -10,12 +10,6 @@ Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully re
   
 </div>
 
-> [!NOTE]
-> This is a note
-
-> [!WARNING]
-> This is a warning
-
 ## ✨ Features
 
 - **🎨 Modern UI/UX**: Contemporary design with intuitive user interface elements.
