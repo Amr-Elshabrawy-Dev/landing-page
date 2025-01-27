@@ -6,9 +6,9 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Amr-Elshabrawy-Dev/landing-page?style=social&logo=github) ![GitHub stars](https://img.shields.io/github/stars/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub forks](https://img.shields.io/github/forks/Amr-Elshabrawy-Dev/landing-page?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Amr-Elshabrawy-Dev/landing-page?style=social)
 
----
-
 Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully responsive and visually appealing landing page designed to showcase a modern and interactive user experience. Built using **🚀React** with **⚡Vite** as the build tool, this project utilizes best practices in front-end development to deliver high performance and maintainable code.
+
+---
 
 </div>
 
@@ -22,8 +22,7 @@ Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully re
 - **📱 Responsive Design**: Optimized for all devices, including mobile, tablet, and desktop.
 - **⚡ Performance Optimization**: Leveraged techniques such as lazy loading and optimized assets for better performance.
 - **✨ Dynamic Animations**: Smooth animations for improved user interactivity.
-- **🖼️ Image Optimization**: Reduced image sizes using `vite-plugin-image-optimizer` to enhance load speed.
-- **♿ Accessibility**: Ensured accessibility standards with semantic HTML and ARIA roles.
+- **🌟 Enhanced Features**: Optimized images, accessibility improvements, and interactive particle background system.
 
 ## 🛠️ Core Technologies
 
@@ -67,6 +66,7 @@ Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully re
   - 🗜️ Implemented Brotli compression
 - 📈 **Result**: Improved Lighthouse scores
 - 📊 **Lighthouse Score Preview**:
+
   ![Lighthouse Score](src/assets/lighthouse.webp)
 
 ### 4. 🎭 **Animation Refinement**
@@ -92,6 +92,15 @@ Welcome to the **🏝️ 📃 Landing Page** project! This project is a fully re
 - ⚠️ Suboptimal mobile navigation
 - ✨ **Solution**: Redesigned mobile menu system
 - 📈 **Result**: Improved mobile usability
+
+### 8. 🎨 **Background Animation**
+
+- ⚠️ **Challenge**: Performance and display issues with particle system
+- ✨ **Solution**:
+  - Optimized particle count and calculations
+  - Added pixel ratio scaling and proper cleanup
+  - Improved color theme integration
+- 📈 **Result**: Smooth, efficient animations across all devices
 
 ## 🔧 Installation
 
