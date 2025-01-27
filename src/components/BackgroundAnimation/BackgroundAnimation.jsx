@@ -46,7 +46,7 @@ const BackgroundAnimation = ({ particleSize = 5 }) => { // increased default siz
 
     // Initialize particles with random positions, sizes, and velocities
     const createParticles = () => {
-      particlesRef.current = Array.from({ length: 80 }, () => ({ // increased to 80 particles
+      particlesRef.current = Array.from({ length: 25 }, () => ({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
         size: Math.random() * particleSize + 4, // reduced minimum size for more variety
