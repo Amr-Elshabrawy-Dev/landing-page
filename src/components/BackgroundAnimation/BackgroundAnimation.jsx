@@ -49,8 +49,8 @@ const BackgroundAnimation = ({ particleSize = 5 }) => { // increased default siz
       particlesRef.current = Array.from({ length: 25 }, () => ({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
-        size: Math.random() * particleSize + 4, // reduced minimum size for more variety
-        speedX: (Math.random() - 0.5) * 2, // reduced speed for smoother movement
+        size: Math.random() * particleSize + 4,
+        speedX: (Math.random() - 0.5) * 2,
         speedY: (Math.random() - 0.5) * 2,
         colorIndex: Math.floor(Math.random() * colors.length),
       }));
